@@ -1,0 +1,15 @@
+{
+    "name": "ts7-import-json-with",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "generate": "node generate.ts",
+        "attribute": "tsc -p tsconfig.attribute.json --extendedDiagnostics",
+        "attribute:files": "tsc -p tsconfig.attribute.json --listFilesOnly",
+        "query": "tsc -p tsconfig.query.json --extendedDiagnostics",
+        "composite": "tsc -p tsconfig.composite.json"
+    },
+    "devDependencies": {
+        "typescript": "next"
+    }
+}
